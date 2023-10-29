@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON - Home</title>
+    <link rel="shortcut icon" type="imagex/png" href="../images/icon.ico">
+    <link rel="stylesheet" href="../styles/feed.css"/>
+    <link rel="stylesheet" href="../styles/geral.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    </style>
+</head>
+<body>
+    <!--Spin de carregamento da página-->
+    <div class="spinner-container" id="spinnerContainer">
+        <div class="spinner"></div>
+    </div>
+    <!--NAVBAR-->
+    <nav class="navigation">
+        <ul>
+            <li class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo-on.png"  width="45vw">
+                </a>
+            </li>
+            <li class="item-menu active">
+                <a href="feed.html">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="txt-link">Feed</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="challenges.html">
+                    <span class="icon"><ion-icon name="calendar"></ion-icon></span>
+                    <span class="txt-link">Eventos e Desafios</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="missions.html">
+                    <span class="icon"><ion-icon name="trophy"></ion-icon></span>
+                    <span class="txt-link">Sua Jornada</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="charts.html">
+                    <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></ion-icon></span>
+                    <span class="txt-link">Seu Desempenho</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="instituto.html">
+                    <span class="icon"><ion-icon name="earth-outline"></ion-icon></span>
+                    <span class="txt-link">Fundação Schneider</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="profile.html">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <span class="txt-link">Perfil</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!--Conteúdo da página-->
+    <div class="page-content">
+        <div class="container">
+            <!--Conteúdo à esquerda-->
+            <div class="left">
+                <!--Barra de busca-->
+                <div class="search-bar">
+                    <button id="filtrar"><ion-icon name="filter"></ion-icon></ion-icon>Filtrar</button> 
+                    <div class="input-search">
+                        <ion-icon name="search"></ion-icon>
+                        <input type="text" id="search" placeholder="Pesquise por perfis, publicações e projetos">
+                    </div>
+                    <button class="buscar"></ion-icon>Buscar</button> 
+                </div>
+                <!--Cards Projetos-->
+                <h3 style="padding-top: 70px; margin-left: 40px;">Projetos</h3>
+                <div class="projetos">
+                    <div class="card-projeto">
+                        <div class="row-projeto">
+                            <img src="../images/arvore-3.jpg" width="40%">
+                            <div class="text-projeto">
+                                <h3>Proteja a Fauna e Flora</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projeto">
+                        <div class="row-projeto">
+                            <img src="../images/prato.png" width="40%">
+                            <div class="text-projeto">
+                                <h3>Alimente uma família</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projeto">
+                        <div class="row-projeto">
+                            <img src="../images/livros.jpg" width="40%">
+                            <div class="text-projeto">
+                                <h3>Leve educação para todos</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-mais">
+                        <h4>Ver mais</h4>
+                        <ion-icon name="chevron-forward" style="font-size: 3rem;"></ion-icon>
+                    </div>
+                </div>
+                <!--Card Postar-->
+                <div class="card-adc">
+                    <div>
+                        <img src="../images/moco.jfif" width="7%">
+                        <input placeholder="Adicione uma publicação">
+                        <ion-icon name="image"></ion-icon>
+                        <ion-icon name="videocam"></ion-icon>
+                        <ion-icon name="document-text"></ion-icon>
+                    </div>
+                </div>
+                <!--Card Postagem-->
+                <div class="container-post">
+                    <div class="post">
+                        <div class="row-post">
+                            <img src="../images/homem.jfif" width="70px">
+                            <div>
+                                <h3><b>Paulo Rocha</b></h3>
+                                <p>Engenheira de Software Sr - São Paulo/SP</p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p style="text-align: left;">Aqui em casa já tornamos um hábito a separação de materiais recicláveis. Esse foi o volume da semana. É absurdo pensar como uma boa parte do nosso lixo pode ser reaproveitada. Agora é só aguardar o caminhão da coleta passar. Separe seu lixo você também.</p><br>
+                            <img src="../images/coleta-seletiva.jpeg" width="100%">
+                        </div>
+                        <div class="actions-post">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="share-social"></ion-icon>
+                            <ion-icon name="chatbox"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-post">
+                    <div class="post">
+                        <div class="row-post">
+                            <img src="../images/mulher.jfif" width="70px">
+                            <div>
+                                <h3><b>Liliane Ferreira</b></h3>
+                                <p>Engenheira Elétrica - São Paulo/SP</p>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p style="text-align: left;">E ficou assim nossa hortinha vertical em casa. Agora temos temperos fresquinhos para cozinhar, e sem agrotóxicos. Apenas precisamos de algumas garrafas, que fomos juntando nas últimas semanas, barbante grosso, para amarrá-las umas nas outras, e pregos para prender os barbantes na parede. Eu amei! Pretendo fazer com morangos também.</p><br>
+                            <img src="../images/horta-vertical.jpg" width="100%">
+                        </div>
+                        <div class="actions-post">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="share-social"></ion-icon>
+                            <ion-icon name="chatbox"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h4 style="text-align: center; margin-top: 30px;">Parece que não há mais publicações para ver...</h4>
+            </div>
+            <!--Conteúdo à direita-->
+            <div class="right">
+                <!--Card Perfil-->
+                <div class="card-perfil">
+                    <img src="../images/moco.jfif">
+                    <h3>Murilo Freire</h3>
+                    <p>Consultor de Negócios Sr - Blumenau/SC</p><br><hr>
+                    <br><p><b>Nível 12</b></p>
+                    <div style="display: flex; justify-content: center;">
+                        <div class="level"><h4>344 pontos</h4></div>
+                    </div><hr>
+                    <br><p><b>Suas missões:</b></p><br>
+                    <div style="font-size: 2rem;">
+                        <ion-icon name="cloud-outline"></ion-icon>
+                        <ion-icon name="water-outline"></ion-icon>
+                        <ion-icon name="leaf-outline"></ion-icon>
+                        <ion-icon name="flash-outline"></ion-icon>
+                    </div><hr><br>
+                    <div style="display: flex; justify-content: center;">
+                        <a href="../index.html" style="text-decoration: none;">
+                            <button id="btn-sair">
+                                <ion-icon name="log-out-outline"></ion-icon>
+                                <p>Sair</p>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!--Card dica-->
+                <div class="card-dica">
+                    <img src="../images/ideia.png" width="55%">
+                    <h2 style="text-transform: uppercase;">Dica do dia</h2>
+                    <p>Procure comprar alimentos in natura de pequenos produtores em feiras e mercadinhos locais. Assim você fortalece a economia local, tem mais acesso à procedência do alimento e reduz o imapcto ambiental causado por produções de larga escala. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../scripts/feed.js"></script>
+    <script src="../scripts/geral.js"></script>
+</body>
+</html>

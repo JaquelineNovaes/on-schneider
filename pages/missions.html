@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON - Jornada</title>
+    <link rel="shortcut icon" type="imagex/png" href="../images/icon.ico">
+    <link rel="stylesheet" href="../styles/missions.css"/>
+    <link rel="stylesheet" href="../styles/geral.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    </style>
+</head>
+<body>
+    <!--Spin de carregamento da página-->
+    <div class="spinner-container" id="spinnerContainer">
+        <div class="spinner"></div>
+    </div>
+    <!--NAVBAR-->
+    <nav class="navigation">
+        <ul>
+            <li class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo-on.png"  width="45vw">
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="feed.html">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="txt-link">Feed</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="challenges.html">
+                    <span class="icon"><ion-icon name="calendar"></ion-icon></span>
+                    <span class="txt-link">Eventos e Desafios</span>
+                </a>
+            </li>
+            <li class="item-menu active">
+                <a href="missions.html">
+                    <span class="icon"><ion-icon name="trophy"></ion-icon></span>
+                    <span class="txt-link">Sua Jornada</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="charts.html">
+                    <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></ion-icon></span>
+                    <span class="txt-link">Seu Desempenho</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="instituto.html">
+                    <span class="icon"><ion-icon name="earth-outline"></ion-icon></span>
+                    <span class="txt-link">Fundação Schneider</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="profile.html">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <span class="txt-link">Perfil</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Conteúdo da página-->
+    <div class="page-content">
+        <div class="col">
+            <!--Trilha de missões-->
+            <div class="trilha">
+                <div><h1>Trilha de missões</h1></div><br>
+                <div class="circle active" onclick="showDialog('Desafio da Alimentação Sustentável!  Vamos abraçar um desafio que beneficia nosso planeta e nossa saúde? 🌍 Opte por uma dieta mais sustentável, reduzindo o consumo de carne e produtos de origem animal, e abrace uma alimentação baseada em vegetais! 🥦🥕 Escolha alimentos locais e sazonais, reduzindo a pegada de carbono associada ao transporte de alimentos. Cada escolha que fazemos importa! 🍅🌽Mostre seu compromisso com um estilo de vida mais verde! 💚 Tire uma foto com uma deliciosa refeição sustentável e compartilhe no Ôn com a hashtag #DesafioAlimentaçãoSustentável. Incentive amigos e seguidores a experimentar novos sabores e a adotar práticas alimentares que cuidam do meio ambiente. Juntos, podemos fazer a diferença! 🌿😃 VALENDO 10 PONTOS!!')"><ion-icon name="restaurant-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Economia de Energia em Casa! 💡Vamos embarcar em um desafio para reduzir nosso consumo de energia e fazer a diferença? 💚 Faça pequenas mudanças no seu dia a dia para economizar energia em casa!Apague as luzes em ambientes vazios, desconecte aparelhos eletrônicos que não estão em uso, utilize lâmpadas de baixo consumo e aproveite ao máximo a luz natural. Cada gesto conta! 🌞🔌Mostre o seu comprometimento com um futuro mais eficiente! 💪 Tire uma foto praticando uma dessas ações e compartilhe nas redes sociais com a hashtag #DesafioEconomiaEnergia.Incentive amigos e familiares a seguir o exemplo e a adotar hábitos mais sustentáveis em relação à energia. Juntos, podemos fazer um impacto positivo! 💡😃Aceite o desafio e marque três pessoas para participarem também. Vamos criar uma onda de consciência energética e preservar nosso planeta. Você topa? 💚💡 #DesafioEconomiaEnergia #Sustentabilidade #MenosEnergiaMaisFuturo. VALENDO 11 PONTOS!!')"><ion-icon name="sunny-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio do Plantio de Árvores! 🌳Vamos aceitar um desafio que contribui para um mundo mais verde? 🌍 Plante uma árvore e faça parte dessa transformação positiva! Escolha um local adequado, obtenha uma muda de árvore nativa ou adequada ao seu clima e solo, e plante-a com carinho. Cada árvore plantada é um presente para o futuro! 🌱🌳 Mostre seu comprometimento com a natureza! 💚 Tire uma foto plantando sua árvore e compartilhe no Ôn com a hashtag #DesafioPlantioÁrvores. VALENDO 12 PONTOS!!')"><ion-icon name="leaf-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Reciclagem Inteligente! ♻️Vamos encarar um desafio que ajuda a preservar nosso planeta? 🌍 Recicle de forma consciente e inspire outros a fazerem o mesmo!Aqui está o desafio: escolha um dia para revisar sua casa e identificar itens recicláveis que poderiam ter sido descartados erroneamente. Separe esses materiais e coloque-os na coleta seletiva. Garanta que cada objeto esteja no lugar certo para reciclagem! ♻️🗑️. Mostre seu comprometimento com a causa! 💚 Tire uma foto com sua pilha de materiais recicláveis e compartilhe nas rede social Ôn com a hashtag #DesafioReciclagemInteligente. VALENDO 13 PONTOS!!')"><ion-icon name="git-compare-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio do Consumo Sustentável! ♻️Vamos encarar um desafio que faz a diferença para o nosso planeta? 🌍 Escolha consumir produtos sustentáveis e ajude a impulsionar uma mudança positiva na indústria!Aqui está o desafio: pesquise produtos que sejam fabricados de forma ecológica, usando materiais reciclados ou orgânicos, com embalagens sustentáveis ou que tenham uma pegada de carbono reduzida. Opte por esses produtos sempre que possível, apoiando práticas responsáveis e éticas. Cada escolha importa! ♻️🌿Mostre seu comprometimento com um estilo de vida sustentável! 💚 Tire uma foto com seus produtos sustentáveis e compartilhe no Ôn com a hashtag #DesafioConsumoSustentável.VALENDO 15 PONTOS!!')"><ion-icon name="hand-right-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Limpeza Local! 🌍Vamos encarar um desafio que limpa e revitaliza o nosso espaço? 🌳 Participe de uma ação de limpeza local através do aplicativo Ôn e convide outros a se juntarem nessa causa!Aqui está o desafio: escolha um dia para se voluntariar na limpeza de uma área local, como um parque, praia, rua ou praça. Use o aplicativo Ôn para encontrar eventos de limpeza próximos a você e participe com vontade. Cada pedacinho de lixo recolhido faz uma grande diferença! ♻️🚯Mostre seu comprometimento com a comunidade e o meio ambiente! 💚 Tire uma foto durante a limpeza local e compartilhe no aplicativo Ôn com a tag #DesafioLimpezaLocal. VALENDO 18 PONTOS!!')"><ion-icon name="sparkles-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Economia de Água com o App Ôn! 💧Vamos encarar um desafio que faz a diferença na preservação dos recursos hídricos? 🌊 Use o aplicativo Ôn para se comprometer a economizar água e inspire outros a adotarem práticas mais conscientes!Aqui está o desafio: defina metas diárias para reduzir o consumo de água em sua casa. Feche a torneira enquanto escova os dentes, tome banhos mais curtos, conserte vazamentos e aproveite a água de forma mais eficiente. Cada gota poupada conta! 💡💧Mostre seu comprometimento com um uso responsável da água! 💚 Tire uma captura de tela do seu progresso no aplicativo Ôn e compartilhe nas redes sociais com a hashtag #DesafioEconomiaÁgua. VALENDO 20 PONTOS!!')"><ion-icon name="water-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Consciência Ambiental! 🌿Vamos encarar um desafio que amplia a conscientização sobre a importância de proteger nosso planeta? 🌍 Faça parte dessa mudança inspiradora e motive outros a agirem!Aqui está o desafio: compartilhe informações sobre práticas sustentáveis, dicas de conservação e a importância da preservação ambiental em suas redes sociais ou em conversas com amigos e familiares. Eduque, inspire e encoraje a adoção de pequenas ações diárias que fazem toda a diferença! 💡🌱Mostre seu comprometimento com um futuro mais verde! 💚 Tire uma foto ou crie uma postagem que destaque sua mensagem de conscientização ambiental e compartilhe com a hashtag #DesafioConsciênciaAmbiental. VALENDO 23 PONTOS!!')"><ion-icon name="bug-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Mobilidade Sustentável com o App Ôn! 🚲🚌Vamos encarar um desafio que reduz nossa pegada de carbono e melhora a qualidade do ar? 🌍 Escolha usar transporte público, bicicleta ou outro meio de transporte sustentável em vez de veículos individuais movidos a combustíveis fósseis.Aqui está o desafio: durante uma semana, utilize o transporte público, pedale sua bicicleta, faça caminhadas ou utilize outros meios de transporte sustentáveis sempre que possível. Compartilhe sua experiência no aplicativo Ôn para inspirar outros a adotarem alternativas mais ecológicas e eficientes! 🌿🚴‍♂️ VALENDO 26 PONTOS!!')"><ion-icon name="bicycle-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Preservação Marinha com o App Ôn! 🌊🐠Vamos encarar um desafio que ajuda a proteger nossos oceanos e a vida marinha? 🌍 Use o aplicativo Ôn para se conectar com eventos e iniciativas de preservação marinha e compartilhar conhecimento para inspirar outros a se envolverem.Aqui está o desafio: participe de uma ação de limpeza de praia, aprenda sobre as ameaças aos ecossistemas marinhos, e divulgue informações sobre a importância da conservação dos oceanos em suas redes sociais dentro do aplicativo Ôn. Cada ação conta para garantir um futuro marinho saudável! 🌊🌿Mostre seu comprometimento com a vida marinha! 💚 Tire uma foto durante a ação de preservação marinha ou compartilhando informações relevantes no app Ôn com a tag #DesafioPreservaçãoMarinha. VALENDO 27 PONTOS!!')"><ion-icon name="fish-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio das Dicas Sustentáveis no App Ôn! ♻️🌿Vamos encarar um desafio que espalha práticas sustentáveis e inspira mudanças positivas? 🌍 Use o aplicativo Ôn para compartilhar dicas de sustentabilidade com a comunidade e ajudar mais pessoas a adotarem hábitos que cuidam do planeta!Aqui está o desafio: compartilhe uma dica sustentável por dia no app Ôn. Pode ser sobre economia de energia, redução do uso de plástico, consumo consciente ou qualquer outro aspecto da vida sustentável que você queira destacar. Mostre o quanto pequenas ações fazem uma grande diferença! 💡🌱Mostre seu comprometimento com um estilo de vida mais verde! 💚 Poste suas dicas no app Ôn, use a hashtag #DesafioDicasSustentáveis e ajude a criar uma comunidade de eco-cidadãos. VALENDO 28 PONTOS!!')"><ion-icon name="share-social-outline"></ion-icon></div>
+                <div class="circle" onclick="showDialog('Desafio da Minimização de Desperdícios! Vamos encarar um desafio que reduz o desperdício e contribui para um planeta mais sustentável? 🌍 Utilize o aplicativo Ôn para compartilhar suas estratégias e inspirar outros a minimizarem desperdícios em suas vidas! Aqui está o desafio: a cada semana, identifique uma área em que você possa reduzir o desperdício, seja na comida, embalagens, uso de recursos, ou outra. Implemente essa mudança e compartilhe sua experiência no app Ôn. Cada pequeno passo faz uma grande diferença! ♻️🌿Mostre seu comprometimento com um consumo mais consciente! 💚 Compartilhe sua ação de minimização de desperdícios no app Ôn com a tag #DesafioMinimizaçãoDesperdícios. VALENDO 30 PONTOS!!')"><ion-icon name="warning-outline"></ion-icon></div>
+            </div>
+            <div id="dialog" class="dialog">
+                <div class="dialog-content">
+                    <span class="close" onclick="closeDialog()">&times;</span>
+                    <p id="dialog-text"></p>
+                </div>
+            </div>
+            <!--Card lições-->
+            <div class="container-lession">
+                <div class="lession">
+                    <img  class="image" src="../images/alimentos-2.jpg" alt="environment" width="100%">
+                    <h3>Faça a lição 1: </h3> 
+                    <h4>Desafio da alimentação saudável</h4><br><hr><br>
+                    <p>É surpreendente pensar que para produzir apenas um hambúrguer, são necessários cerca de 2 litros de água. Essa curiosidade nos faz repensar nossas escolhas alimentares e considerar alternativas mais sustentáveis.
+                    Então, que tal considerar algumas substituições deliciosas e eco-conscientes? Aqui estão algumas opções:</p><br><hr><br>
+                    <h4>1. Hambúrguer Vegetariano ou Vegano:</h4>
+                    <p>Experimente hambúrgueres à base de vegetais, como grãos, legumes, cogumelos ou soja. Eles são deliciosos e geralmente requerem menos água para serem produzidos.</p><br><hr><br>
+                    <h4>   2. Proteínas Alternativas: </h4> 
+                    <p>Além dos hambúrgueres vegetais, você pode optar por proteínas como feijões, lentilhas, quinoa, tofu e seitan. Essas opções também têm um impacto menor no consumo de água.</p><br><hr><br>
+                    <h4>   3. Redução do Consumo de Carne:   </h4> 
+                    <p>Se você ainda deseja consumir carne, considere reduzir a frequência. Escolha carnes de origem sustentável, procure opções locais e sazonais e apoie práticas de criação responsáveis.</p><br><hr><br>
+                    <h4>A chave é tomar decisões informadas e conscientes sobre nossa dieta. Ao fazer escolhas mais sustentáveis, podemos contribuir para a preservação dos recursos hídricos e minimizar nosso impacto no meio ambiente. Lembre-se, pequenas mudanças na nossa alimentação podem ter um grande impacto positivo! 🌱💧</h4>
+                    <img  class="image" src="../images/target.png" alt="environment" width="50%">
+                    <button id="btn-sair">
+                        <ion-icon name="play-circle" style="font-size: 1.3rem;"></ion-icon>
+                        <p>Começar Lição</p>
+                    </button>
+                </div>
+            </div>
+            <!--<div class="notifica"> 
+            <h4>Seu processo economizando energia</h4><br>
+            <img class="image1" src="../images/bulb.jpg" width="300px" height="140px" alt="">
+                <div class="processo">
+                
+                    <script> 
+                        document.getElementById("meuBotao").addEventListener("click", function() {
+                            alert("Você clicou no botão!");
+                        });
+                    </script>
+                </div>
+                <button class="green-button">CLIQUE AQUI</button>
+            </div>-->
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../scripts/missions.js"></script>
+    <script src="../scripts/geral.js"></script>
+</body>
+</html>

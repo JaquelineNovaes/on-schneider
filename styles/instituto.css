@@ -1,0 +1,63 @@
+.text-entenda {
+    color: var(--cor-verde-schneider);
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px;
+    padding: 10px;
+  }
+  
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 220px;
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.404);
+  }
+  
+  .main-card:hover {
+    transform: scale(1.11);
+    box-shadow: 0 3px 30px var(--cor-verde-schneider);
+  }
+  
+  .main-card h3{
+    color: var(--primary-color);
+    height: 50px;
+    text-align: center;
+  }
+  
+  .main-card p{
+    text-align: start;
+  }
+  
+  #card-button {
+    background-color: #afafafbe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(119, 117, 117, 0.511);
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  #card-button:hover {
+    background: var(--cor-verde-schneider);
+    border-radius: 10px;
+    backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(0, 255, 251, 0.402);
+    box-shadow: 5px 5px 30px var(--cor-verde-schneider);
+  }

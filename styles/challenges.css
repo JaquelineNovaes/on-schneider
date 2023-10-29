@@ -1,0 +1,290 @@
+.events,
+.challenges {
+  margin-bottom: 20px;
+}
+
+.card-two {
+  padding: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  height: 140px;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 250px;
+  border-radius: 12px;
+  margin-left: 12px;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  box-shadow: 0px 5px 20px 3px #00000034;
+}
+.card-twox {
+  padding: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  height: 140px;
+  background-color: rgb(255, 255, 255);
+  width: 297px;
+  height: 210px;
+  border-radius: 12px;
+  margin-left: 12px;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  box-shadow: 0px 5px 20px 3px #00000034;
+}
+.green-button {
+  padding: 4px 20px 4px 20px;
+  margin: 0px;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  display: flex;
+}
+
+.card-container {
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+}
+.card-container1 {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px 20px 20px;
+  border-radius: 12px;
+  margin-left: 7%;
+  margin-right: 5%;
+  border: 2px solid rgb(179, 176, 176);
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.page-content {
+  width: 100vw;
+  padding-top: 50px;
+  
+
+}
+.projetos {
+}
+.all {
+  border: 2px solid var(--cor-verde-schneider);
+  background-color: var(--cor-verde-schneider);
+  padding: 20px 20px 20px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  justify-content: space-evenly;
+  margin-left: 7%;
+  margin-right: 5%;
+ 
+}
+.ft1 {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.green-button {
+  color: rgb(0, 0, 0);
+  font-family: "Nunito";
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.green-button1{
+  color: rgb(0, 0, 0);
+  font-family: "Nunito";
+  margin-top: px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.iconu {
+  color: red;
+}
+p {
+  color: #17df27;
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito";
+}
+h3 {
+  font-size: 14px;
+  color: black;
+  font-family: "Nunito";
+}
+
+.vertical-menu {
+  width: 400px; /* Set a width if you like */
+  margin: 0 auto;
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #04aa6d; /* Add a green color to the "active/current" link */
+  color: white;
+}
+.vertical-menu {
+  border-radius: 12px;
+  background-color: var(--cor-verde-schneider);
+  margin-top: 10px;
+  width: 900px;
+  height: 220px;
+  overflow-y: auto;
+  border: var(--cor-verde-schneider) 2px solid;
+}
+
+/* Estiliza a barra de rolagem no Firefox */
+/* Largura e altura da barra de rolagem */
+html {
+  scrollbar-width: auto;
+  scrollbar-color: #49e722 #61d414;
+}
+
+/* Estiliza a trilha da barra de rolagem */
+html::-webkit-scrollbar-track {
+  background: #17e210;
+}
+
+/* Estiliza o polegar da barra de rolagem */
+html::-webkit-scrollbar-thumb {
+  background: rgb(0, 156, 21);
+}
+
+/* Estiliza o polegar da barra de rolagem quando hover */
+html::-webkit-scrollbar-thumb:hover {
+  background: #17df27;
+}
+
+.tituloprimario {
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito";
+  color: #17df27;
+  font-size: 32px;
+  margin-top: 4px;
+}
+
+.card-two1 {
+  padding: 10px;
+  margin-right: 16px;
+  margin-left: 34px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 240px;
+  height: 260px;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  box-shadow: 0px 5px 20px 3px #00000034;
+}
+.ft2 {
+  width: 210px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+.p1 {
+  color: #17df27;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Nunito";
+  margin-top: 2px;
+}
+.h31 {
+  font-size: 12px;
+  color: black;
+  font-family: "Nunito";
+  margin-left: 13px;
+  margin-top: 4px;
+}
+.p2 {
+  color: #17df27;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Nunito";
+  margin-top: 2px;
+}
+.h32 {
+  font-size: 12px;
+  color: black;
+  font-family: "Nunito";
+  margin-left: 13px;
+  margin-top: 4px;
+}
+
+.ft1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.card-twox {
+  font-size: 12px;
+  color: black;
+  font-family: "Nunito";
+  margin-left: 13px;
+  margin-top: 4px;
+}
+.card-two1 {
+  font-size: 12px;
+  color: black;
+  font-family: "Nunito";
+  margin-left: 13px;
+  margin-top: 32px;
+}
+.p3 {
+  color: #17df27;
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Nunito";
+  margin-top: 2px;
+}
+.event{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-family: "Nunito";
+  color: #17df27;
+}
+.event1{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-family: "Nunito";
+  color: grey;
+  margin-top: 10px;
+}

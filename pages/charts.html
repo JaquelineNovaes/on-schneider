@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON - Desempenho</title>
+    <link rel="shortcut icon" type="imagex/png" href="../images/icon.ico">
+    <link rel="stylesheet" href="../styles/charts.css"/>
+    <link rel="stylesheet" href="../styles/geral.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    </style>
+</head>
+<body>
+    <!--Spin de carregamento da página-->
+    <div class="spinner-container" id="spinnerContainer">
+        <div class="spinner"></div>
+    </div>
+    <!--NAVBAR-->
+    <nav class="navigation">
+        <ul>
+            <li class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo-on.png"  width="45vw">
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="feed.html">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="txt-link">Feed</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="challenges.html">
+                    <span class="icon"><ion-icon name="calendar"></ion-icon></span>
+                    <span class="txt-link">Eventos e Desafios</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="missions.html">
+                    <span class="icon"><ion-icon name="trophy"></ion-icon></span>
+                    <span class="txt-link">Sua Jornada</span>
+                </a>
+            </li>
+            <li class="item-menu active">
+                <a href="charts.html">
+                    <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></ion-icon></span>
+                    <span class="txt-link">Seu Desempenho</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="instituto.html">
+                    <span class="icon"><ion-icon name="earth-outline"></ion-icon></span>
+                    <span class="txt-link">Fundação Schneider</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="profile.html">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <span class="txt-link">Perfil</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Conteúdo da página-->
+    <div class="page-content">
+       
+        <div class="container">
+            <h1 class="titulo1">Acompanhe o seu Desempenho</h1><br>
+            <h2 class="subtitulo1">
+              Aqui, você pode visualizar sua progressão ao
+              tornar o seu dia a dia mais sustentável para si e para outros. Você pode vizualizar como
+              você economizou energia, água, reduziu as emissões de CO2, participou na plataforma e outros.
+              Adicione suas informações de consumo e mantenha suas atividades atualizadas para gerarmos seus gráficos. A vizualização dos gráficos pode ser editada de acordo com suas preferências. 
+            </h2><br><br>
+
+            <div class="btn-group-charts">
+                <button type="button" class="btn btn-secondary">Adicionar conta de água</button>
+                <button type="button" class="btn btn-secondary">Adicionar conta de luz</button>
+                <button type="button" class="btn btn-secondary">Editar vizualização</button>
+            </div>
+
+            <div class="quadrado-principal">
+              <div class="card">
+                Este gráfico demonstra a quantidade de água que você consumiu em litros ao longo dos meses, de acordo com as informações que você enviou.
+                Parabéns! Você tem mantido seu consumo de água baixo, estável e dentro das metas até nos meses mais quentes! Você tem levado mesmo a sério essa questão, continue assim e poste suas atividades que têm te ajudado a economizar para receber pontos!
+                <div class="chart"><br>
+                  <canvas id="myChart"></canvas>
+                </div>
+              </div>
+            </div>
+      
+            <script src="../scripts/charts.js"></script>
+            
+      
+            <div class="quadrado-terciario">
+                <div class="card">
+                    Este gráfico demonstra a quantidade de energia que você consumiu em kWh ao longo dos meses, de acordo com as informações que você enviou. O seu consumo
+                    de energia aumentou no último mês e ultrapassou sua meta significativamente... uma dica é colocar metas mais realistas com o que é possível para você.
+                    Além disso, você pode colocar em prática as dicas e lições sobre economia de energia que você recebe na plataforma.
+                    Você está no caminho certo, continue tornando sua vida mais eficiente! 
+                  <div class="chart2"><br>
+                    <canvas id="myChart2" style="width: 450px; height: 300px !important;"></canvas>
+                  </div>
+                  
+                </div>
+              </div>
+              
+              <script src="../scripts/chart2.js"></script>
+            </div>
+          </div>
+
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../scripts/charts.js"></script>
+    <script src="../scripts/geral.js"></script>
+</body>
+</html>

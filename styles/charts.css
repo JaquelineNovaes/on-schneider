@@ -1,0 +1,125 @@
+/* Estilo para o container */
+.container {
+  padding: 20px;
+}
+
+.page-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  
+}
+
+.btn-group-charts{
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-group-charts button{
+  background-color: var(--cor-verde-schneider);
+  border: none;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px 3px #00000034;
+  cursor: pointer;
+}
+
+.btn-group-charts button:hover{
+  transform: scale(1.1);
+}
+
+/* Estilo para os quadrados principais e secundários */
+.quadrado-principal,
+.quadrado-secundario {
+  float: left;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 800px;
+}
+
+.quadrado-secundario {
+  background-color: rgb(226, 224, 224);
+  height: auto;
+}
+
+.quadrado-principal {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  box-shadow: 0px 5px 20px 3px #00000034;
+  border-radius: 25px;
+}
+
+/* Estilo para o quadrado terciário */
+.quadrado-terciario {
+  width: 800px;
+  clear: both;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  box-shadow: 0px 5px 20px 3px #00000034;
+  border-radius: 25px;
+}
+
+.titulo1 {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulo1 {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 750px;
+  color: #434343;
+  font-weight: bold;
+}
+
+.card {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilize o canvas dentro do card */
+.card canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo para o quadrado terciário */
+.quadrado-terciario {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+
+#myChart2 {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#myChart {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+p{
+  
+}

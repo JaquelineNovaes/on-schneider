@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap%27');
+        </style>
+        <title>ON - Perfil</title>
+        <link rel="shortcut icon" type="imagex/png" href="../images/icon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../styles/profile.css">
+        <link rel="stylesheet" href="../styles/geral.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <script src="https://kit.fontawesome.com/3b16783758.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="spinner-container" id="spinnerContainer">
+            <div class="spinner"></div>
+        </div>
+        <!--NAVBAR-->
+        <nav class="navigation">
+            <ul>
+                <li class="logo">
+                    <a href="../index.html">
+                        <img src="../images/logo-on.png"  width="45vw">
+                    </a>
+                </li>
+                <li class="item-menu ">
+                    <a href="feed.html">
+                        <span class="icon"><ion-icon name="home"></ion-icon></span>
+                        <span class="txt-link">Feed</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="challenges.html">
+                        <span class="icon"><ion-icon name="calendar"></ion-icon></span>
+                        <span class="txt-link">Eventos e Desafios</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="missions.html">
+                        <span class="icon"><ion-icon name="trophy"></ion-icon></span>
+                        <span class="txt-link">Sua Jornada</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="charts.html">
+                        <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></ion-icon></span>
+                        <span class="txt-link">Seu Desempenho</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="instituto.html">
+                        <span class="icon"><ion-icon name="earth-outline"></ion-icon></span>
+                        <span class="txt-link">Fundação Schneider</span>
+                    </a>
+                </li>
+                <li class="item-menu active">
+                    <a href="profile.html">
+                        <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                        <span class="txt-link">Perfil</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!--Conteúdo da página-->
+        <div class="page-content">
+        <div style="padding: 40px;">
+        <header>
+            <div class="container" id="Cabecalho">
+                <div class="row" style="align-items: center; justify-content: center;">
+                        <div class="col-md-3" id="InfoPessoal">
+                            <div id="foto"></div>
+                            <p class="nome">Murilo Freire</p>
+                            <p class="profissao">Consultor de Negócios- Blumenau/SC</p>
+                            <p class="nivelNum">Nivel 12</p>
+                            <progress value="75" max="100"></progress>
+                        </div>
+                        
+
+                        <div class="col-md-3" id="Conexao">
+                            <div id="seguidores"><p>540 Seguidores</p></div>
+                            <div id="seguindo"><p>540 Seguindo</p></div>
+                        </div>
+                        
+
+                        <div class="col-md-3" id="RA">
+                            <div id="Ranking">
+                                <p>Ranking</p>
+                                <p class="nivel">Ouro</p>
+                            </div>
+                            <div id="Atividades">
+                                <p>Atividades</p>
+                                <div class="imagem"></div>
+                                <div class="imagem1"></div>
+                                <div class="imagem2"></div>
+                                <div class="imagem3"></div>
+                                <div class="imagem4"></div>
+                                <div class="imagem5"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </header>
+            
+            <main>
+                <div class="container" id="Divisao">   
+                    <div class="titulo">
+                        <p>Ultimas publicações</p>
+                    </div> 
+                </div> 
+                <div class="container-fluid" id="publicacao">
+                    <div id="conteudo">
+                        <div id="icon-top">
+                            <a >
+                                <i class="fa-solid fa-ellipsis fa-xl" id="pontos"></i>
+                            </a>
+                            <a>
+                                <i class="fa-solid fa-x fa-xl" id="x"></i>
+                            </a>
+                        </div>
+                        <div id="post">
+                            <div id="foto1">
+                            </div>
+                            <p class="nome">Murilo Freire</p>
+                            <p>Consultor de Negócios - Blumenau/SC</p>
+                            <p class="postTexto">Gostaria de compartilhar com vocês minha primeira árvore plantada!</p>
+                            <div id="postImagem"></div>
+                        </div>
+                        
+                        <div class="actions-post">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="share-social"></ion-icon>
+                            <ion-icon name="chatbox"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="container-fluid">
+                    <p>Carregar mais</p>
+                    <a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </div>
+            </footer>
+        </div>
+        </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../scripts/profile.js"></script>
+    <script src="../scripts/geral.js"></script>
+    </body>
+</html>

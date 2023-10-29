@@ -1,0 +1,320 @@
+
+:root{
+    --fonte: 15px;
+    --cor-primaria: #00e448;
+    --Cor-secundaria: rgba(202, 202, 202, 0.719);
+    --Bordas: 2px solid var(--Cor-secundaria);
+}
+
+#Cabecalho{
+    margin-top: 0%;
+    border: var(--Bordas);
+    border-radius: 25px;
+    width: 100%;
+    height: 300px;
+    background-image: url(https://imageio.forbes.com/blogs-images/josephliu/files/2019/06/10-ferdinand-stohr-149422-unsplash-1200x298.jpg?height=176&width=711&fit=bounds);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    max-width: 1350px;
+    min-width: 800px;
+    font-family: 'Nunito', sans-serif;
+}
+#foto{
+    border-radius: 50px;
+    width: 100px;
+    background-image: url(../images/moco.jfif);
+    background-size: 100%;
+    height: 100px;
+}
+#InfoPessoal{
+    margin-top: 60px;
+    height: 200px;
+    font-size: var(--fonte);
+    min-width: 10%;
+    color: rgb(116, 115, 115);
+    width: 30%;
+    padding-left: 3%;
+}
+
+.nome{
+    color: rgb(58, 58, 58);
+    padding-top: 10px;
+    font-weight: bold ;
+    font-size: 23px;
+    line-height: 15px;
+}
+.profissao{
+    line-height: 10px;
+}
+
+.nivelNum{
+    color: rgba(153, 153, 153, 0.918);
+    line-height: 5px;
+}
+progress {
+    width: 300px;
+    height: 15px;
+    border-radius: 100px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #dbdbdb;
+}
+
+progress::-webkit-progress-value {
+    background-color: #00e448;
+}
+
+#Conexao{
+   
+    margin-top: 130px;
+    width: 700px;
+    max-width: 30%;
+    text-align: center;
+    font-size: var(--fonte);
+    min-width: 10%;
+}
+
+#seguidores{
+    padding-top: 7px;
+    margin: auto;
+    width: 70%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: white;
+    font-weight: bold;
+}
+#seguindo{
+    font-weight: bold;
+    padding-top: 7px;
+    color: white;
+    margin: auto;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+}
+#RA{ 
+    width: 600px;
+    max-width: 40%;
+    text-align: center;
+    font-size: var(--fonte);
+    min-width: 20%;
+  
+}
+#RA > div{
+    display: inline-block;
+    border: var(--Bordas);
+    float: left;
+}
+#Ranking{
+    font-weight: bold;
+    color: rgb(116, 115, 115);
+    margin-top: 130px;
+    border: var(--Bordas);
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    background-image: url(../images/gold.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5%;
+    font-size: 20px;
+    max-width: 38%;
+    min-width: 90px;
+}
+
+#Atividades{
+    font-weight: bold;
+    color: rgb(116, 115, 115);
+    font-size: 20px;
+    margin-top: 130px;
+    width: 200px;
+    height: 150px;
+    border: var(--Bordas);
+    border-radius: 20px;
+    max-height: 100%;
+    min-height: 20%;
+    min-width: 90px;
+    padding: auto;
+    overflow: hidden;
+
+}
+
+#Atividades > div{
+    padding-top: 40px;
+    max-width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+}
+.imagem{
+    border: var(--Bordas);
+    width: 50px;
+    height: 40px;
+    background-image: url(https://img.freepik.com/fotos-premium/maos-de-pessoas-plantando-uma-pequena-arvore-no-conceito-de-por-do-sol-salvar-a-terra_34152-3251.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imagem1{
+    border: var(--Bordas);
+    width: 50px;
+    height: 40px;
+    background-image: url(https://img.freepik.com/fotos-premium/latas-de-lixo-coloridas-dedicadas-a-coleta-seletiva-de-lixo-ilustracao-3d_286925-141.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.imagem2{
+    border: var(--Bordas);
+    width: 50px;
+    height: 40px;
+    background-image: url(https://culturaambientalnasescolas.com.br/wp-content/uploads/2023/04/Desvendando-o-Conceito-de-Reciclagem-como-praticar-e-transformar-o-mundo-com-pequenas-atitudes-sustentaveis.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.imagem3{
+    border: var(--Bordas);
+    width: 50px;
+    height: 40px;
+    background-image: url(https://www.piramidal.com.br/blog/wp-content/uploads/2019/08/shutterstock_742659751.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.imagem4{
+    border: var(--Bordas);
+    width: 50px;
+    height: 40px;
+    background-image: url(https://img.freepik.com/fotos-premium/mao-de-uma-mulher-segurando-o-lixo-na-bolsa-preta-para-limpeza-no-lixo_34152-1926.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imagem5{
+    border: var(--Bordas);
+    width: 50px;
+    height: 40px;
+    background-image: url(https://img.freepik.com/fotos-premium/as-pessoas-voluntarias-mantendo-a-garrafa-de-plastico-de-lixo-em-saco-preto-no-parque-perto-do-rio-por-do-sol_34152-2042.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+main{
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(116, 115, 115, 0.637);
+    font-weight: bold;
+}
+#publicacao{
+    margin-top: 20px;
+    border-radius: 25px ;
+    width: 100%;
+    height: 830px;
+    border: var(--Bordas);
+    padding-top: 40px;
+    max-width: 1350px;
+    min-width: 800px;
+}
+.nivel{
+    margin-top: 85px;
+}
+#conteudo{
+    box-shadow: 0px 0px 40px 1px rgb(116, 115, 115);
+    border-radius: 25px;
+    margin: auto;
+    height: 95%;
+    width: 95%;
+    padding-left: 8%;
+}
+.curtidas{
+    color: rgba(92, 92, 92, 0.918);
+    text-align: start;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border-bottom: 2px solid var(--Cor-secundaria);
+    width: 80%;
+    padding-top: 20px;
+   
+}
+#foto1{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+    background-image: url(../images/moco.jfif);
+    background-size: 100%;
+    margin-right: 15px;
+}
+#post{
+    padding-top: 4%;
+}
+#post > p{
+    color: rgba(92, 92, 92, 0.979);
+    line-height: 15px;
+    font-size: 18px;
+}
+.postTexto{
+    padding-top: 30px;
+    width: 750px;
+    max-width: 80%;
+}
+#postImagem{
+    background-size: 100% 100%;
+    background-image: url(https://img.freepik.com/fotos-premium/maos-de-pessoas-plantando-uma-pequena-arvore-no-conceito-de-por-do-sol-salvar-a-terra_34152-3251.jpg?w=2000);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 450px;
+    border-radius: 25px;
+}
+
+.actions-post{
+    color: var(--cor-verde-schneider);
+    font-size: 3rem;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    padding-right: 90px;
+}
+
+#Curtir{
+    padding-right:10%;
+}
+#Comentarios{
+    padding-right:10%;
+}
+#icon-top{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+#pontos{
+    padding-right: 30px;
+}
+a i {
+    transition: all 0.3s linear;
+    color: rgb(168, 168, 168);
+}
+a:hover i {
+    transform: scale(1.2);
+    color: var(--cor-primaria);
+    
+}
+footer{
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(116, 115, 115, 0.637);
+    font-family: 'Nunito', sans-serif;
+}
